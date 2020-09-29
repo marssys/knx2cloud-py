@@ -1,4 +1,7 @@
 # knx2cloud-py
+## Dependencies
+- kDriveExpress SDK https://weinzierl.de/index.php/en/all-knx/software-tools-en/kdriveexpress-en (used for KNX communication)
+- Eclipse Paho MQTT Python Client https://github.com/eclipse/paho.mqtt.python (used for MQTT communication)
 ## Install on Ubuntu 16.04 LTS
 - `cd ~`
 - `git clone https://github.com/marssys/knx2cloud-py.git` (`git pull`)
