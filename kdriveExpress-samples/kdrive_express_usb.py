@@ -22,7 +22,7 @@ from ctypes import (
 
 # load the kdriveExpress dll (windows)
 # for linux replace with kdriveExpress.so
-kdrive = CDLL('kdriveExpress.dll')
+kdrive = CDLL('libkdriveExpress.so')
 
 # Enable to use the kdrive access packet trace
 kdrive_packet_trace = False
