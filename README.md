@@ -8,4 +8,3 @@
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 - Set timezone `sudo dpkg-reconfigure tzdata` (check current time `date`)
-- Install git `sudo apt-get install git`
