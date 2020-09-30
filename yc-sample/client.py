@@ -16,8 +16,8 @@ REGISTRY_COMMANDS = "$registries/" + REGISTRY_ID + "/commands"
 REGISTRY_EVENTS = "$registries/" + REGISTRY_ID + "/events"
 
 # False means use certificates
-USE_DEVICE_LOGIN_PASSWORD = False
-USE_REGISTRY_LOGIN_PASSWORD = False
+USE_DEVICE_LOGIN_PASSWORD = True
+USE_REGISTRY_LOGIN_PASSWORD = True
 
 
 class Qos(IntEnum):
